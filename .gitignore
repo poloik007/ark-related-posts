@@ -11,7 +11,7 @@ yarn-error.log*
 #package-lock.json
 
 # === Build output  ===
-_inc/dist/
+#_inc/dist/
 
 # === Local environment files ===
 .env
