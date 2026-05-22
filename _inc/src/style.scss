@@ -1,0 +1,27 @@
+$layout-breakpoint: 782px;
+
+.ark-related-posts {    
+    column-gap: 40px;
+    display: flex;
+
+    @media (max-width: $layout-breakpoint) {
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    .ark-related-posts__item {
+        flex: 2;
+        border: 1px solid #ccc;
+        padding: 10px;
+        border-radius: 10px;
+        a {
+            img {
+                width: 100%;
+                height: auto;
+            }
+            span {          
+                font-size: 1rem;
+            }
+        }
+    }
+}
