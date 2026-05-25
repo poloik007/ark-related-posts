@@ -6,10 +6,9 @@ A WordPress plugin that automatically displays related posts at the bottom of si
 
 - **Tag-based matching** — finds posts that share tags with the current post
 - **Automatic fallback** — shows latest posts when no tag matches exist
-- **Transient caching** — 24-hour cache per post to reduce database queries
-- **Responsive layout** — flexbox grid that collapses to a single column on mobile (≤782px)
-- **Featured images** — displays post thumbnails alongside titles
-- **Zero configuration** — works automatically on all single post pages after activation
+- **Transient caching** — 24-hour cache
+- **Responsive layout** — flexbox grid
+- **Featured images** — displays post thumbnails
 
 ## Requirements
 
